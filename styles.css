@@ -1,8 +1,52 @@
-body {
-    background-color: cornsilk;
+html {
+    background-color: #ffffff;
 }
-#image {
+
+body {
     width: 100%;
-    max-width: 500px;
-    height: 200px;
+    margin: 0;
+    background-color: rgb(232, 232, 232);
+}
+
+#main {
+    background-color: lightgreen;
+    margin: 0 auto;
+    max-width: 80%;
+    height: 100vh;
+}
+
+figure {
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+#img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 15px 0 15px 0;
+}
+
+header {
+    background-color: lightsalmon;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    background-color: darkgoldenrod;
+    width: 80%;
+    margin: 10px auto 0 auto;
+    text-align: center;    
+}
+
+ul {
+    text-align: center;
+    list-style: inside;
 }
